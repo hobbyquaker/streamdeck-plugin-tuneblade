@@ -1,0 +1,43 @@
+{
+	"SDKVersion": 2,
+	"Author": "Hobbyquaker",
+	"CodePath": "app.html",
+	"Description": "Control Tuneblade from Stream Deck",
+	"Name": "Stream Deck Tuneblade Plugin",
+	"Icon": "actions/tuneblade/assets/tuneblade_active",
+	"URL": "https://github.com/hobbyquaker/streamdeck-plugin-tuneblade",
+	"Version": "1.0.0",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Tuneblade",
+	"CategoryIcon": "actions/tuneblade/assets/tuneblade_category",
+	"Actions": [
+		{
+			"Icon": "actions/tuneblade/assets/tuneblade_action",
+			"Name": "Enable/disable Speakers",
+			"Controllers": ["Keypad"],
+			"States": [
+				{
+					"Image": "actions/tuneblade/assets/tuneblade_inactive"
+				},
+				{
+					"Image": "actions/tuneblade/assets/tuneblade_active"
+				}
+			],
+			"Tooltip": "",
+			"UUID": "rocks.raff.tuneblade.action",
+			"PropertyInspectorPath": "actions/tuneblade/property-inspector/inspector.html"
+		}
+	]
+}

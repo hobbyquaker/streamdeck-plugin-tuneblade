@@ -1,10 +1,10 @@
 {
-  "Description": "Use this to create your own plugin", 
-  "Name": "Stream Deck Template", 
-  "Category": "Templates", 
-  "com.elgato.template.action": {
-    "Name": "Action", 
-    "Tooltip": "This is the only action in this plugin"
+  "Description": "Stream Deck Tuneblade Plugin",
+  "Name": "Stream Deck Tuneblade Plugin",
+  "Category": "Tuneblade",
+  "rocks.raff.tuneblade.sdPlugin.action": {
+    "Name": "Enable/disable receiver",
+    "Tooltip": "Enable/disable streaming to AirPlay receiver"
   },
   "Localization": {
     "More info": "More info",

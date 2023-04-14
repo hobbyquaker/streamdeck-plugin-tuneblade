@@ -32,7 +32,7 @@ A short guide to help you get started quickly.
 
 Rename the folder as well as any references.
 
-`com.elgato.template` with `my.domain.plugin-name`
+`rocks.raff.tuneblade.sdPlugin` with `my.domain.plugin-name`
 
 ### Get the latest library
 
@@ -45,7 +45,7 @@ Be sure `.gitmodules` has been updated to match your new folder name `my.domain.
 You can get started in app.js!
 
 ```javascript
-const myAction = new Action('com.elgato.template.action');
+const myAction = new Action('rocks.raff.tuneblade.sdPlugin.action');
 
 /**
  * The first event fired when Stream Deck starts

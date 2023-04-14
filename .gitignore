@@ -1,7 +1,7 @@
 .DS_Store
 .idea/**
 /src/DistributionTool
-com.elgato.template.streamDeckPlugin
+rocks.raff.tuneblade.sdPlugin.streamDeckPlugin
 .vscode/**
 package.json
 .history
